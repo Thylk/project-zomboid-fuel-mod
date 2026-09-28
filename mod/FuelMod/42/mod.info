@@ -1,0 +1,5 @@
+name=Renewable Fuel
+id=FuelMod
+description=Late-game renewable fuel: ferment crops, distill ethanol, run generators on biofuel. Prototype.
+modversion=0.1.0
+versionMin=42.20.0

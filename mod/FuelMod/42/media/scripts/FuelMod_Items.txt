@@ -1,0 +1,11 @@
+module FuelMod
+{
+    /* Placeholder intermediate product. Uses a vanilla icon until custom art exists. */
+    item CornMash
+    {
+        DisplayCategory = Food,
+        ItemType = base:normal,
+        Weight = 0.5,
+        Icon = Corn,
+    }
+}

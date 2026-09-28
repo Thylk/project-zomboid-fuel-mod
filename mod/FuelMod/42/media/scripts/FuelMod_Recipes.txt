@@ -1,0 +1,23 @@
+module FuelMod
+{
+    /* Test recipe: 2 corn + 1 L water -> corn mash.
+       "item 1 [*]" + "-fluid" is the vanilla pattern (see MakePieDough) for
+       drawing water from any fluid container without consuming the container. */
+    craftRecipe FuelMod_MakeCornMash
+    {
+        timedAction = Making,
+        time = 60,
+        category = Farming,
+        Tags = AnySurfaceCraft,
+        inputs
+        {
+            item 2 [Base.Corn],
+            item 1 [*],
+            -fluid 1.0 [Water],
+        }
+        outputs
+        {
+            item 1 FuelMod.CornMash,
+        }
+    }
+}
