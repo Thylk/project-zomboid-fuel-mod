@@ -10,7 +10,7 @@
 - [x] Test recipe (2 Corn + 1 L Water → Corn Mash)
 - [x] Development/test procedure ([development.md](development.md))
 - [x] Mod loads, item and recipe register (verified on headless dedicated server)
-- [ ] Verified in the game client: recipe craftable, English names shown
+- [x] Verified in the game client: recipe craftable, English names shown, item survives save and reload
 
 Do not start the barrel until this is confirmed in game.
 

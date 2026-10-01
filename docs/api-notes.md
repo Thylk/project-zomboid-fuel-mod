@@ -102,8 +102,7 @@ The log line `mod "FuelMod" overrides .../itemname.json` does not wipe
 vanilla names. `Base.PetrolCan` still resolves to "Gas Can".
 
 On a **dedicated server**, mod translations do not resolve at all. This
-applies to MoreBuilds too. Client-side translation is *unverified* until
-tested in game.
+applies to MoreBuilds too. In the game client they work (verified 2026-10-02).
 
 ## Lua events and time
 
